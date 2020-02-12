@@ -1,10 +1,12 @@
 body {
-    background: url('./assets/images/forest.png') no-repeat center center fixed;
+    background: url('../images/forest.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    height: 100%;
 }
+
 .navbar-custom {
     background-color: #222E50;
 }
@@ -16,4 +18,8 @@ body {
 
 .navbar-custom .sticky-bottom {
     background-color: #222E50;
+}
+
+.bg-green{
+    background-color: #587B7F;
 }
